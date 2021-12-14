@@ -1,0 +1,74 @@
+#first img {
+    position: relative;
+    width:100%; /* for IE 6 */
+    padding-top: 105px;
+}
+
+#first h2 {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    padding-left: 100px;
+    font-size: 50px;
+}
+
+#second img{
+    position: relative;
+    width:100%; /* for IE 6 */
+    padding-top: 300px;
+}
+
+#second h2 {
+    position: absolute;
+    top: 600px;
+    left: 0;
+    width: 100%;
+    padding-left: 1000px;
+    font-size: 50px;
+}
+
+#third img {
+    position: relative;
+    width:100%;
+    padding-top: 405px;
+}
+
+#third h2 {
+    position: absolute;
+    top: 1150px;
+    left: 0;
+    width: 100%;
+    padding-left: 100px;
+    font-size: 50px;
+}
+
+#fourth img{
+    position: relative;
+    width:100%;
+    padding-top: 300px;
+}
+
+#fourth h2 {
+    position: absolute;
+    top: 1600px;
+    left: 0;
+    width: 100%;
+    padding-left: 1000px;
+    font-size: 50px;
+}
+
+#fifth img {
+    position: relative;
+    width:100%;
+    padding-top: 405px;
+}
+
+#fifth h2 {
+    position: absolute;
+    top: 2160px;
+    left: 0;
+    width: 100%;
+    padding-left: 100px;
+    font-size: 50px;
+}
