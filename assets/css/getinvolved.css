@@ -128,4 +128,18 @@ input[type=text], input[type=password], textarea {
     opacity: 0.9;
 }
 
+.table-contest{
+    margin-left: auto;
+    margin-right: auto;
+}
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-contest tr #register3, #register4 {
+    color: blue;
+}
