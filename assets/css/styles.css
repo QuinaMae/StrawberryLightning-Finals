@@ -343,7 +343,7 @@ img{
 }
 
 .event__img{
-  width: 100px;
+  width: 500px;
   align-self: center;
   margin-bottom: var(--mb-2);
 }
