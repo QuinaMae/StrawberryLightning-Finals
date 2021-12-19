@@ -1,6 +1,6 @@
 #first img {
     position: relative;
-    width:100%; /* for IE 6 */
+    width:100%;
     padding-top: 105px;
 }
 
@@ -21,10 +21,10 @@
 
 #second h2 {
     position: absolute;
-    top: 820px;
+    top: 800px;
     left: 0;
     width: 100%;
-    padding-left: 1000px;
+    padding-left: 60%;
     font-size: 50px;
 }
 
@@ -36,10 +36,10 @@
 
 #third h2 {
     position: absolute;
-    top: 1300px;
+    top: 1250px;
     left: 0;
     width: 100%;
-    padding-left: 100px;
+    text-align: center;
     font-size: 50px;
 }
 
@@ -103,7 +103,7 @@ td, th {
     padding-left: 1px;
 }
 .container {
-    padding-left: 640px;
+    padding-left: 40%;
     background-color: lightblue;
 }
 
