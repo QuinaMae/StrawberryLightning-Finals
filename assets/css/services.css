@@ -35,11 +35,11 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .teams, .contact, footer{
+.about, .amenities, .booth, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.contact .contact-content{
+.booth .booth-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -133,78 +133,78 @@ section .title::after{
     color: #a82a12;
 }
 
-/* teams section styling */
+/* amenities section styling */
 .title::before,
-.teams .title::before{
+.amenities .title::before{
     background: #fff;
 }
 .title::after,
-.teams .title::after{
+.amenities .title::after{
     background: #111;
 }
-.teams{
+.amenities{
     color:#fff;
     background: #111;
 }
-.teams .title::after{
+.amenities .title::after{
     content: "WHERE";
 }
 
 
-/* contact section styling */
-.contact .title::after{
+/* booth section styling */
+.booth .title::after{
     content: "get in touch";
 }
-.contact .contact-content .column{
+.booth .booth-content .column{
     width: calc(50% - 30px);
 }
-.contact .contact-content .text{
+.booth .booth-content .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.contact .contact-content .left p{
+.booth .booth-content .left p{
     text-align: justify;
 }
-.contact .contact-content .left .icons{
+.booth .booth-content .left .icons{
     margin: 10px 0;
 }
-.contact .contact-content .row{
+.booth .booth-content .row{
     display: flex;
     height: 65px;
     align-items: center;
 }
-.contact .contact-content .row .info{
+.booth .booth-content .row .info{
     margin-left: 30px;
 }
-.contact .contact-content .row i{
+.booth .booth-content .row i{
     font-size: 25px;
     color: #a82a12;
 }
-.contact .contact-content .info .head{
+.booth .booth-content .info .head{
     font-weight: 500;
 }
-.contact .contact-content .info .sub-title{
+.booth .booth-content .info .sub-title{
     color: #333;
 }
-.contact .right form .fields{
+.booth .right form .fields{
     display: flex;
 }
-.contact .right form .field,
-.contact .right form .fields .field{
+.booth .right form .field,
+.booth .right form .fields .field{
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
 }
-.contact .right form .textarea{
+.booth .right form .textarea{
     height: 80px;
     width: 100%;
 }
-.contact .right form .name{
+.booth .right form .name{
     margin-right: 10px;
 }
-.contact .right form .field input,
-.contact .right form .textarea textarea{
+.booth .right form .field input,
+.booth .right form .textarea textarea{
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
@@ -215,15 +215,15 @@ section .title::after{
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus{
+.booth .right form .field input:focus,
+.booth .right form .textarea textarea:focus{
     border-color: #b3b3b3;
 }
-.contact .right form .textarea textarea{
+.booth .right form .textarea textarea{
   padding-top: 10px;
   resize: none;
 }
-.contact .right form .button-area{
+.booth .right form .button-area{
   display: flex;
   align-items: center;
 }
