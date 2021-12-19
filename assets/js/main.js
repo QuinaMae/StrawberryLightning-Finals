@@ -109,7 +109,7 @@ sr.reveal(`.home__data, .home__img,
             .about__data, .about__img,
             .services__content, .event__content,
             .footer__content`, {
-    interval: 200
+    interval: 100
 })
 
 

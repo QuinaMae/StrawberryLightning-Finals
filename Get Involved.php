@@ -20,57 +20,7 @@
         <i class="bx bx-chevron-up scrolltop__icon"></i>
      </a>
     
-    <!--========== HEADER / NAVBAR ==========-->
-    <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <img src="assets/img/logo1.png" class="nav__logo" alt="" width="150px" height="100px">
-                
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item dropdown">
-                        <a href="index.html" class="nav__link dropdown__link active-link">Explore</a>
-                            <ul class="dropdown__menu">
-                                <li class="dropdown__item"><a href="#anime" class="nav__link">Anime & Manga</a></li>
-                                <li class="dropdown__item"><a href="#comics" class="nav__link">Comics</a></li>
-                                <li class="dropdown__item"><a href="#games" class="nav__link">Games</a></li>
-                                <li class="dropdown__item"><a href="#fandoms" class="nav__link">Fandoms</a></li>
-                            </ul>
-                    </li>
-                    <li class="nav__item dropdown">
-                        <a href="services.html" class="nav__link dropdown__link">Services</a>
-                        <ul class="dropdown__menu">
-                            <li class="dropdown__item"><a href="#booth" class="nav__link">Booths</a></li>
-                            <li class="dropdown__item"><a href="#amenities" class="nav_link">Amenities</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav__item dropdown">
-                        <a href="Get%20Involved.html" class="nav__link dropdown__link">Get Involved</a>
-                        <ul class="dropdown__menu">
-                            <li class="dropdown__item"><a href="#" class="nav__link">Register a Booth</a></li>
-                            <li class="dropdown__item"><a href="#" class="nav__link">Register for Ticket</a></li>
-                        </ul>
-                        
-                    </li>
-                    <li class="nav__item dropdown">
-                        <a href="About%20Us.html" class="nav__link dropdown__link">About Us</a>
-                        <ul class="dropdown__menu">
-                            <li class="dropdown__item"><a href="#" class="nav__link">Con Policies</a></li>
-                            <li class="dropdown__item"><a href="#" class="nav__link">FAQs</a></li>
-                            <li class="dropdown__item"><a href="#" class="nav__link">Contact Us</a></li>
-                        </ul>
-                    <!-- Light/Dark theme icon -->
-                    </li>
-                    <li class="nav__item dropdown"></li>                           
-                        <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
-                </ul>
-            </div>
-            <!-- Toggle light/dark theme -->
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="bx bx-menu"></i>
-            </div>
-        </nav>
-    </header>
+     <?php require_once('header.php')?>
 
     <!--===== REGISTER FOR BOOTH =====-->
     <section class="booth" id="booth">
