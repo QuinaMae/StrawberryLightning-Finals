@@ -103,3 +103,28 @@ themeButton.addEventListener('click', () => {
 //             .footer__content`, {
 //     interval: 200
 // })
+
+$(document).ready(function(){
+    // typing text animation script
+    var typed = new Typed(".typing", {
+        strings: ["Booth"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    // owl carousel script
+    $('.carousel').owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplay: true,
+        autoplayTimeOut: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+            0:{
+                items: 1,
+                nav: false
+            },
+        }
+    });
+});
