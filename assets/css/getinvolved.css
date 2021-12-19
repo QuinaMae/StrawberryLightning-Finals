@@ -51,10 +51,10 @@
 
 #fourth h2 {
     position: absolute;
-    top: 2100px;
+    top: 2000px;
     left: 0;
     width: 100%;
-    padding-left: 1000px;
+    padding-left: 60%;
     font-size: 50px;
 }
 
@@ -107,7 +107,7 @@ td, th {
     background-color: lightblue;
 }
 
-input[type=text], input[type=password], textarea {
+input[type=text], input[type=number], input[type=password], textarea {
     width: 30%;
     padding: 15px;
     margin: 5px 0 22px 0;
