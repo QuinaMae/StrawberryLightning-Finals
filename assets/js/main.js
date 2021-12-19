@@ -89,20 +89,20 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-// /*==================== SCROLL REVEAL ANIMATION ====================*/
-// const sr = ScrollReveal({
-//     origin: 'top',
-//     distance: '30px',
-//     duration: 2000,
-//     reset: true
-// });
+/*==================== SCROLL REVEAL ANIMATION ====================*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 2000,
+    reset: true
+});
 
-// sr.reveal(`.home__data, .home__img,
-//             .about__data, .about__img,
-//             .services__content, .event__content,
-//             .footer__content`, {
-//     interval: 200
-// })
+sr.reveal(`.home__data, .home__img,
+            .about__data, .about__img,
+            .services__content, .event__content,
+            .footer__content`, {
+    interval: 200
+})
 
 $(document).ready(function(){
     // typing text animation script
