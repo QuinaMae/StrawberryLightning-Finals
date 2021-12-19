@@ -108,48 +108,6 @@ section .title::after{
     font-weight: 500;
 }
 
-/* about section styling */
-.about .title::after{
-    content: "APPLY";
-}
-.about .about-content .left{
-    width: 45%;
-}
-.about .about-content .left img{
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 6px;
-}
-.about .about-content .right{
-    width: 55%;
-}
-.about .about-content .right .text{
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.about .about-content .right .text span{
-    color: #a82a12;
-}
-
-/* amenities section styling */
-.title::before,
-.amenities .title::before{
-    background: #fff;
-}
-.title::after,
-.amenities .title::after{
-    background: #111;
-}
-.amenities{
-    color:#fff;
-    background: #111;
-}
-.amenities .title::after{
-    content: "WHERE";
-}
-
 
 /* booth section styling */
 .booth .title::after{
