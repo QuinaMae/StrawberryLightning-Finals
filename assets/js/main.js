@@ -1,3 +1,11 @@
+/*================ Contributors for JS ================*/
+/**
+ * MANALANG, Hanna
+ * CHAROPANG, Quina
+ */
+
+
+/* Quina */
 /*==================== SHOW MENU ====================*/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
@@ -104,6 +112,8 @@ sr.reveal(`.home__data, .home__img,
     interval: 200
 })
 
+
+/*Hanna*/
 $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
