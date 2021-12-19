@@ -28,7 +28,7 @@
             <div class="max-width">
                 <div class="home-content">
                     <div class="text-3"><span class="typing"></span></div>
-                    <div class="text-2">Exhibiting at Anime Expo offers various opportunities - whether you <br>want to launch a new product, showcase your upcoming releases, or <br>just get your name out there!</div>
+                    <div class="text-2">Exhibiting at HexCon offers various opportunities - whether you <br>want to launch conventions, showcase your upcoming releases, or <br>just get your name out there!</div>
                 </div>
             </div>
         </section>
@@ -37,7 +37,7 @@
         <section class="about" id="about">
             <div class="max-width">
                 <h2 class="title">Get your name in front of tens of thousands of anime fans.</h2>
-                <p> From Exhibit Hall to Entertainment Hall to lobby activations, Anime Expo offers various locations for companies to exhibit.
+                <p> From Exhibit Hall to Entertainment Hall to lobby activations, HexCon offers various locations for companies to exhibit.
                     Connect with us determine the best fit based on your goals, your content, and your needs.</p>
                     <br>
                     <br>
@@ -87,10 +87,10 @@
                     also where you can notify us about any problems, such as spills or broken things.</p>
                     <br>
                     <h2>Lost & Found</h2>
-                <p> If you have lost an item at Anime Expo, please visit the Lost & Found room located in West Hall, room 507.
+                <p> If you have lost an item at HexCon, please visit the Lost & Found room located in West Hall, room 507.
                     If you would like to turn in a lost item, you can drop it off at any Info Services Booth or the Lost & Found room.
-                    After Anime Expo, lost items are turned over to Baguio Convention Center Guest Services. Please contact them at +63 123456789.
-                    If you lost your item at the JW Marriott, please contact them at +63 123456789.</p>
+                    After HexCon, lost items are turned over to Baguio Convention Center Guest Services. Please contact them at +63 123456789.
+                    If you lost your item at the JW Marriott, please contact them at +639 489 546 897.</p>
                 </section>
 
         <!--========== FOOTER ==========-->
