@@ -78,7 +78,7 @@
             <div class="max-width">
                 <h2 class="title">Amenities</h2>
                 <h2>Info Services</h2>
-                <p> Look out for Info Services booths throughout the Los Angeles Convention Center for help with any questions such as where 
+                <p> Look out for Info Services booths throughout the Philippines HexCon Convention Center for help with any questions such as where 
                     things are located, when things are happening, or how late certain parts of the convention are open until. </p>
                     <br>
                     <h2>Event Operations</h2>
