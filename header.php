@@ -24,16 +24,16 @@
                             <li class="nav__item dropdown">
                                 <a href="Get%20Involved.php" class="nav__link dropdown__link">Get Involved</a>
                                 <ul class="dropdown__menu">
-                                    <li class="dropdown__item"><a href="#" class="nav__link">Register a Booth</a></li>
-                                    <li class="dropdown__item"><a href="#" class="nav__link">Register a Ticket</a></li>
+                                    <li class="dropdown__item"><a href="#booth" class="nav__link">Register a Booth</a></li>
+                                    <li class="dropdown__item"><a href="#ticket" class="nav__link">Register a Ticket</a></li>
                                 </ul>
                                 
                             </li>
                             <li class="nav__item dropdown">
                                 <a href="About%20Us.php" class="nav__link dropdown__link">About Us</a>
                                 <ul class="dropdown__menu">
-                                    <li class="dropdown__item"><a href="#" class="nav__link">Con Policies</a></li>
-                                    <li class="dropdown__item"><a href="#" class="nav__link">FAQs</a></li>
+                                    <li class="dropdown__item"><a href="#con" class="nav__link">Con Policies</a></li>
+                                    <li class="dropdown__item"><a href="#faqs" class="nav__link">FAQs</a></li>
                                     <li class="dropdown__item"><a href="#" class="nav__link">Contact Us</a></li>
                                 </ul>
                             </li>

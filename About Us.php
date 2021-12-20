@@ -51,47 +51,42 @@
 
     <div id="img1" class="row">
         <div class="column">
-            <img src="assets/img/emoji.jpg" alt="Snow" style="width:100%">
+            <img src="assets/img/Irish.png" alt="Snow" style="width:100%">
+            <p class="a">Irish Erika L. Bayubay</p>
+            
         </div>
         <div class="column">
-            <img src="assets/img/emoji.jpg" alt="Forest" style="width:100%">
+            <img src="assets/img/Quina.png" alt="Forest" style="width:100%">
+            <p class="a">Quiña Mae Charopang</p>
         </div>
         <div class="column">
-            <img src="assets/img/emoji.jpg" alt="Mountains" style="width:100%">
+            <img src="assets/img/hanna.png" alt="Mountains" style="width:100%">
+            <p class="a">Hanna Manalang</p>
         </div>
     </div>
 
-    <div id="names1">
-        <p class="a">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Irish Erika L. Bayubay   </p>
-        <p class="a">Quiña Mae Charopang</p>
-        <p class="a">Hanna Manalang</p>
-    </div>
     <br><br><br>
     <div id="img2" class="row">
         <div class="column">
-            <img src="assets/img/emoji.jpg" alt="Snow" style="width:100%">
+            <img src="assets/img/dhenny.png" alt="Snow" style="width:100%">
+            <p class="a">Dhenny Motic</p>
         </div>
         <div class="column">
-            <img src="assets/img/emoji.jpg" alt="Forest" style="width:100%">
+            <img src="assets/img/Meg.png" alt="Forest" style="width:100%">
+            <p class="a">Christine Meg Santos</p>
         </div>
         <div class="column">
-            <img src="assets/img/emoji.jpg" alt="Mountains" style="width:100%">
+            <img src="assets/img/Matt.png" alt="Mountains" style="width:100%">
+            <p class="a">Matt Wilfred Salvador</p>
         </div>
     </div>
-
-    <div id="names2">
-        <p class="a">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Dhenny Motic</p>
-        <p class="a">&emsp;&emsp;&emsp;Christine Meg Santos</p>
-        <p class="a">Matt Wilfred Salvador</p>
-    </div>
-
-    <br><br><br>
     
         <!--  //// -->
     <div class="con" id="con">
         <h1>CON POLICIES</h1>
     </div>
     <div id="con-policies">
+    <p class="subtitle">Click on the item to view details.</p>
         <details>
             <summary>1. Break: Follow That Reference Exactly</summary>
             <p>When making a cosplay, cosplayers often use one or more pictures as a reference to make sure that they get the cosplay how they want. While this is common practice, many people add their own personal touch to the outfit. This can be a great form of self-expression and is often praised despite not exactly matching the original reference. Also, most people do not look exactly like the character they are portraying – and that’s perfectly okay!</p>
@@ -202,6 +197,7 @@
         <h1>FAQS & QUESTION</h1>
     </div>
     <div id="faqs-content">
+        <p class="subtitle">Click on the item to view the answer.</p>
         <details>
             <summary>1. Can I cosplay _____________ ?</summary>
             <p> Yes. Next question. Ok, maybe I should explain more.
