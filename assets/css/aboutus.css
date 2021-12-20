@@ -131,3 +131,11 @@
 img{
 padding:20px;
 }
+
+.ticket-title{
+    margin-top: 150px;
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: 50px;
+    color:deeppink;
+}

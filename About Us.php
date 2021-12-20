@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
 
     <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/get_involved.css">
     <link rel="stylesheet" href="assets/css/aboutus.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>About Us</title>
@@ -262,6 +263,47 @@
                 ya’ll later!</p>
         </details>
     </div>
+
+    <!--========== CONTACT US =========-->
+    
+        <section class="booth" id="booth">
+            <div class="max-width">
+                <h2 class="ticket-title" id="contactus">Contact Us</h2>
+                <div class="booth-content">
+                    <div class="column left">
+                    <div class="text">Keep in touch with us!</div>                        
+                        <p>If you have any inquiries or issues regarding our website, please email us! We will get back with you the soonest! 
+                        </p>
+                        
+                    </div>
+                    <div class="column right">
+                        <div class="text">Email Us</div>
+                        <form action="#">
+                        <div class="field email">
+                                    <input type="email" placeholder="Your Email" required>
+                                </div>
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Your Full Name" required>
+                            </div>
+                            
+                        </div>
+                        
+                            <div class="field">
+                                <div class="field textarea">
+                                <input type="text area" placeholder="Your message" required>
+                                </div>
+                            </div>
+                            <br><br>                         
+                            
+                            <div class="button-area">
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!--========== FOOTER ==========-->
     <?php require_once('footer.php')?>

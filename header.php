@@ -34,7 +34,7 @@
                                 <ul class="dropdown__menu">
                                     <li class="dropdown__item"><a href="#con" class="nav__link">Con Policies</a></li>
                                     <li class="dropdown__item"><a href="#faqs" class="nav__link">FAQs</a></li>
-                                    <li class="dropdown__item"><a href="#" class="nav__link">Contact Us</a></li>
+                                    <li class="dropdown__item"><a href="#contactus" class="nav__link">Contact Us</a></li>
                                 </ul>
                             </li>
     

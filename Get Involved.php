@@ -107,7 +107,7 @@
 <!--==== REGISTER TICKET ====-->
 <section class="booth" id="booth">
     <div class="max-width">
-        <h2 class="title">Ticket Registration</h2>
+        <h2 class="title" id="ticket">Ticket Registration</h2>
         <div class="booth-content">
             <div class="column left">
                 <div class="text">Create your Ticket</div>
@@ -120,24 +120,27 @@
             <div class="column right">
                 <div class="text">Your Information</div>
                 <form action="#">
-                    <div class="field">
-                        <input type="text" placeholder="Full Name" required>
+                <div class="fields">
+                    <div class="field name">
+                        <input type="text" placeholder="First Name" required>
                     </div>
+                    <div class="field name">
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                </div>
+                    
                     <div class="fields">
                         <div class="field name">
                             <input type="email" placeholder="Email" required>
                         </div>
-                        <div class="field email">
+                    </div>
+
+                    <div class="field email">
                             <input type="number" placeholder="Phone Number" required>
                         </div>
-                    </div>
-                
-                    <div class="field textarea">
-                        <textarea cols="30" rows="10" placeholder="Description of your booth and its services" required></textarea>
-                    </div>
                     
                     <div class="button-area">
-                        <button type="submit">Submit</button>
+                        <button type="submit">Register</button>
                     </div>
                 </form>
             </div>
