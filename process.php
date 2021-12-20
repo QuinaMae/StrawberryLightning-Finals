@@ -2,7 +2,7 @@
 
 <?php
 
-$conn = new mysqli('localhost', 'root', 'root', 'users');
+$conn = new mysqli('localhost', 'root', '', 'users');
 
 /** If you are using WAMP or any other platform, please use the one below. **/
 

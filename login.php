@@ -4,7 +4,7 @@
 
 $host="localhost";
 $user="root";
-$password="root";
+$password="";
 $db="users";
 
 /** If you are using WAMP or any other platform, please use the one below for the password only. **/
@@ -52,35 +52,34 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../assets/css/loginpage.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" /> 
+        <link rel="stylesheet" type="text/css" href="./assets/css/loginpage.css" />
         <title>Welcome to HexCon!</title>
     </head>
+
     <body>
       <div id="bodydiv">
-        <div id=""class="logindiv"></div>
+          <img src="./assets/img/login1.png" class="login-img">
         <div class="logindiv">
             <h3 id="logintitle"> Sign In </h3>
             <form action="#" method="POST">
+                <div class="field">
+                    <input type="text" name="username" placeholder="Username" required>
+                </div>
 
-            <div class="field">
-                <input type="text" name="username" placeholder="Username" required>
-            </div>
-
-            <div class="field">
-                <input type="password" name="password" placeholder="Password" required>
-            </div>
-
-            <hr>
-
-            <div>
-                <input id="submitbutton" type="submit" value="Sign In">
-            </div>
+                <div class="field">
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <br>
+                <div class="submitbtn">
+                    <input id="submitbutton" type="submit" value="Sign In">
+                </div>
 
             </form>
 
             <div id="signupdiv">
                 <label> Not a member? <label>
-                <a href="../signup.php">Sign Up</a>
+                <a href="./signup.php">Sign Up</a>
             </div>
         </div>
       </div>

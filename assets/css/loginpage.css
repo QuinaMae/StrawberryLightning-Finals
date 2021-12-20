@@ -6,7 +6,6 @@ body{
 
 .logindiv{
   float:left;
-  border: solid 1px black;
   height: 300px;
   width: 300px;
   background-color: white;
@@ -14,26 +13,49 @@ body{
   box-shadow: 3px 3px 2px 2px grey;
 }
 
+img{
+  width: 50%;
+  height: 50%;
+}
 .field{
   height: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 input[type=text], input[type=password], input[type=submit]{
+  padding-left: 5%;
+  padding-right: 5%;
   height: 40px;
-  width: 280px;
+  width: 260px;
   margin: 5px;
   border: solid 1px lightgrey;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 input[type=submit]{
+  text-align: center;
   color: white;
-  background-color: rgb(245, 193, 51);
+  background-color: #92E3A9;
+  width: 200px;
+}
+input[type=submit]:hover{
+  background-color: #50a86b;
 }
 
+.submitbtn{
+  text-align: center;
+}
+
+
 div a{
-  color: rgb(245, 193, 51);
+  color: #92E3A9;
   text-decoration: none;
+}
+
+a:hover{
+  color: #50a86b;
+  text-decoration: underline;
 }
 
 #signupdiv{
@@ -48,4 +70,9 @@ h3{
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+#logintitle{
+  padding: 5%;
+  text-align: center;
 }

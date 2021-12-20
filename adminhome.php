@@ -39,7 +39,7 @@ if(isset($_POST['save'])){
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../assets/css/adminpage.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/adminpage.css" />
         <title>Welcome Admin</title>
     </head>
     <body>
@@ -114,7 +114,7 @@ if(isset($_POST['save'])){
 
                 <div class="divfield">
                     <div><label>End of Event </label><sub>REQUIRED</sub></div>
-                    <?php $startDate = $_POST['eventStartDate']; ?>
+                    
                     <input type="datetime-local" name="eventEndDate" value="Enter End Time"
                     min="<?php echo $_POST['eventStartDate'] ?>" max="2099-06-14T00:00" required/>
                 </div>

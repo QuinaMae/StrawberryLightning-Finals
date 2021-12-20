@@ -13,7 +13,7 @@ if(!isset($_SESSION["username"])){
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../assets/css/userpage.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/userpage.css" />
         <title>Cosplay Event</title>
     </head>
     <body>

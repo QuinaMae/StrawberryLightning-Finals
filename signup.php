@@ -39,44 +39,44 @@ if(isset($_POST['signup'])){
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../assets/css/signuppage.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" /> 
+        <link rel="stylesheet" type="text/css" href="./assets/css/signuppage.css" />
         <title>Sign up</title>
     </head>
     <body>
 
     <?php require_once 'process.php'; ?>
-
         <div id="signupform">
-
-        <h4> Sign Up </h4>
-
+          
             <form method="POST">
+            <img src="./assets/img/reg.png" id="reg">
+            <h4> Sign Up </h4> 
                 <div class="divfield">
+
                     <div><label> Username </label><sub>REQUIRED</sub></div>
                     <input type="text" name="username" placeholder="Enter Username" required/>
+                </div>               
+                  
+                  <div class="divfield">
+                      <div><label> Password </label><sub>REQUIRED</sub></div>
+                      <input type="password" name="password" placeholder="Enter Password" required/>
+                  </div>
+
+                  <div class="divfield">
+                      <div><label> First Name </label><sub>REQUIRED</sub></div>
+                      <input type="text" name="firstName" placeholder="Enter First Name" required/>
+                  </div>
+
+                  <div class="divfield">
+                      <div><label> Last Name </label><sub>REQUIRED</sub></div>
+                      <input type="text" name="lastName" placeholder="Enter Last Name" required/>
+                  </div>
+
+                  <div id="buttondiv">
+                        <button type="submit" name="signup">Sign Up</button>
+                  </div>
                 </div>
-
-                <div class="divfield">
-                    <div><label> Password </label><sub>REQUIRED</sub></div>
-                    <input type="password" name="password" placeholder="Enter Password" required/>
-                </div>
-
-                <div class="divfield">
-                    <div><label> First Name </label><sub>REQUIRED</sub></div>
-                    <input type="text" name="firstName" placeholder="Enter First Name" required/>
-                </div>
-
-                <div class="divfield">
-                    <div><label> Last Name </label><sub>REQUIRED</sub></div>
-                    <input type="text" name="lastName" placeholder="Enter Last Name" required/>
-                </div>
-
-
-                <br/><br/><hr><br/><br/><br/>
-
-                <div id="buttondiv">
-                      <button type="submit" name="signup">Sign Up</button>
-                </div>
+                
             </form>
         </div>
 
