@@ -1,3 +1,67 @@
+#con h1{
+    margin-top: 150px;
+    text-align: center;
+    font-family: "Bell MT";
+    font-size: 50px;
+    color: deeppink;
+}
+
+#contact h1{
+    margin-top: 150px;
+    text-align: center;
+    font-family: "Bell MT";
+    font-size: 50px;
+    color:deeppink;
+}
+/*faqs*/
+#con-policies{
+    text-align: center;
+}
+
+#con-policies details summary{
+    color: dimgray;
+    font-size: 25px;
+}
+
+#con-policies details p{
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    overflow: auto;
+    color: grey;
+}
+#source p{
+    font-size: 10px;
+    text-align: center;
+    color: #A6A6A6;
+}
+
+#faqs h1{
+    margin-top: 150px;
+    text-align: center;
+    font-family: "Bell MT";
+    font-size: 50px;
+    color:deeppink;
+}
+
+#faqs-content {
+    text-align: center;
+}
+
+#faqs-content details summary{
+    color: dimgray;
+    font-size: 25px;
+}
+
+#faqs-content details p{
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    overflow: auto;
+    color: grey;
+}
+
+
 #first img{
     margin-left: 0;
     height: 350px;
