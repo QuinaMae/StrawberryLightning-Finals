@@ -29,17 +29,17 @@
                         <h1 class="home__title">Hex<br>Con</h1>
                         <h2 class="home__subtitle">Dreams can <br>become reality.</h2>
                     </div>
-    
+
                     <img src="assets/img/home.png" alt="" class="home__img">
                 </div>
             </section>
-            
+
         <!--========== EVENTS ==========-->
             <!--=== ANIME & MANGA ===-->
             <section class="event section bd-container" id="event">
         <span class="section-subtitle">Browse Conventions</span>
         <h2 class="section-title" id="anime">Anime & Manga Cons</h2>
-        
+
         <div class="event__container bd-grid">
                 <div class="event__content">
                 <img src="assets/img/cosplaymania.jpg" alt="" class="event__img">
@@ -56,7 +56,7 @@
                 <span class="event__preci">January 6-9, 2022</span>
                 <a href="#" class="button event__button"><i class="bx bx-right-arrow-alt"></i></a>
             </div>
-            
+
             <div class="event__content">
                 <img src="assets/img/ANIMEZAP.jpg" alt="" class="event__img">
                 <h3 class="event__name">Anime-ZAP</h3>
@@ -103,9 +103,9 @@
             <section class="event section bd-container" id="event">
                     <span class="section-subtitle">Browse Conventions</span>
                     <h2 class="section-title" id="comics">Comic Cons</h2>
-                    
+
                     <div class="event__container bd-grid">
-                        
+
                         <div class="event__content">
                             <img src="assets/img/wondercon.jpg" alt="" class="event__img">
                             <h3 class="event__name">WonderCon 2022</h3>
@@ -121,7 +121,7 @@
                             <span class="event__preci">January 7-9, 2022</span>
                             <a href="#" class="button event__button"><i class="bx bx-right-arrow-alt"></i></a>
                         </div>
-                        
+
                         <div class="event__content">
                             <img src="assets/img/fanexpo1.jpg" alt="" class="event__img">
                             <h3 class="event__name">Fan Expo 2022</h3>
@@ -136,12 +136,12 @@
             <section class="event section bd-container" id="event">
                         <span class="section-subtitle">Browse Conventions</span>
                         <h2 class="section-title" id="games">Games Cons</h2>
-                        
+
                         <div class="event__container bd-grid">
-                            
+
                             <div class="event__content">
                                 <img src="assets/img/gamicon.PNG" alt="" class="event__img">
-                                <h3 class="event__name">Gamicon 2022</h3>                                
+                                <h3 class="event__name">Gamicon 2022</h3>
                                 <span class="event__detail">Gamicon is Eastern Iowa’s premier game convention. We offer three days of family friendly events ranging from scheduled board, card and role-playing games to a live game auction and a huge game library that lets you choose the gaming experience you want.</span>
                                 <span class="event__preci">Feb 25-27, 2022</span>
                                 <a href="#" class="button event__button"><i class="bx bx-right-arrow-alt"></i></a>
@@ -154,7 +154,7 @@
                                 <span class="event__preci">January 6-9, 2022</span>
                                 <a href="#" class="button event__button"><i class="bx bx-right-arrow-alt"></i></a>
                             </div>
-                            
+
                             <div class="event__content">
                                 <img src="assets/img/hexacon.png" alt="" class="event__img">
                                 <h3 class="event__name">HexaCon</h3>
@@ -171,7 +171,7 @@
             <h2 class="section-title" id="contests">Contests</h2>
 
             <div class="event__container bd-grid">
-                
+
                 <div class="event__content">
                     <img src="assets/img/sakuracon.jpg" alt="" class="event__img">
                     <h3 class="event__name">Sakura Contest 2022</h3>
@@ -187,8 +187,8 @@
                     <span class="event__preci">January 12, 2022</span>
                     <a href="#" class="button event__button"><i class="bx bx-right-arrow-alt"></i></a>
                 </div>
-                
-                
+
+
             </div>
             </section>
 

@@ -1,0 +1,23 @@
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+body{
+  text-align: center;
+}
+
+#table1{
+  border: solid 1px gray;
+  width: 95%;
+  box-shadow: 2px 2px 1px 1px grey;
+}
+
+#table2{
+  margin-top: 50px;
+  border: solid 1px gray;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  box-shadow: 2px 2px 1px 1px grey;
+}
