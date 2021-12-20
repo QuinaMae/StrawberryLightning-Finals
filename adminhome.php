@@ -6,7 +6,7 @@ session_start();
 
 /** To assure that no one can go to the page without logging in**/
 if(!isset($_SESSION["username"])){
-    header("location:login.php");
+    header("location:index.php");
 }
 
 /** The admin will input these needed information for the events to be created **/

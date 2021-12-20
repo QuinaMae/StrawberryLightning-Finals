@@ -3,27 +3,58 @@ include 'process.php';
 session_start();
 $sessionName = $_SESSION["username"];
 
+$sql = "SELECT * FROM `login` WHERE username='$sessionName'";
+$result = mysqli_query($conn, $sql);
+$row=mysqli_fetch_assoc($result);
+
+/** User inputs needed in joining an event**/
+$username = $row["username"];
+$userid = $row["id"];
+$fName = $row["firstName"];
+$surname = $row["surname"];
+
 /** To ensure that no one can go to the page without logging in**/
 if(!isset($_SESSION["username"])){
-    header("location:login
-    .php");
+  header("location:index.php");
 }
+
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./assets/css/userpage.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/css/userpage.css" />
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <?php require_once('header.php')?>
         <title>Cosplay Event</title>
     </head>
     <body>
-      <div>
-        <div id="header">
-        <h1>Welcome User to Cosplays</h1><?php echo $_SESSION["username"] ?>
-        <a href="logout.php">Logout</a>
+      <br/><br/><br/><br/><br/><br/><br/><br/>
+
+      <div id="profilediv">
+        <div id="profilepic" class="profilebox">
+        </div>
+
+        <div id="profiledetails" class="profilebox">
+          <label> User ID:  </label>
+          <span><?php echo $userid?></span>
+          <br/>
+          <label> Username:  </label>
+          <span><?php echo $username?></span>
+          <br/>
+          <label> First Name:  </label>
+          <span id="fNDiv"><?php echo $fName?></span>
+          <br/>
+          <label> Last Name:  </label>
+          <span id="lNDiv"><?php echo $surname?></span>
+          <br/>
+        </div>
       </div>
+    <div>
 
         <div id="table1">
+
+        <h1> List of Events </h1>
         <table>
         <thead>
           <tr>
