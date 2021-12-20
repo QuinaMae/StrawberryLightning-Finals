@@ -47,7 +47,6 @@ if(isset($_POST['signup'])){
 
     <?php require_once 'process.php'; ?>
         <div id="signupform">
-          
             <form method="POST">
             <img src="./assets/img/reg.png" id="reg">
             <h4> Sign Up </h4> 
