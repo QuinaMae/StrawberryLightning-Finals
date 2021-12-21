@@ -9,7 +9,8 @@ th, td {
 #eventcreation{
     height: 800px;
     width: 60%;
-    background-color: rgb(253, 253, 220);
+    background-color: rgb(216, 216, 216);
+    margin-left: 170px;;
 }
 
 div label{
@@ -28,6 +29,7 @@ h4{
     font-style: oblique;
     font-family: cursive;
     font-size: 30px;
+    margin-left: 20px;
 }
 
 form div input, form div select{
@@ -48,4 +50,18 @@ sub{
 button[type=submit]{
     width: 30%;
     height: 40px;
+}
+
+table{
+    border: solid 1px grey;
+    margin-top: 10px;
+    color: black;
+}
+
+*{
+    text-decoration: none;
+}
+
+#eventediting{
+    margin-left: 20px;
 }
