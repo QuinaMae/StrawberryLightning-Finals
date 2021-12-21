@@ -23,13 +23,13 @@ if(!isset($_SESSION["username"])){
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../assets/css/userpage.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/userpage.css" />
         <link rel="stylesheet" href="assets/css/styles.css">
         <?php require_once('header.php')?>
         <title>Cosplay Event</title>
     </head>
     <body>
-      <br/><br/><br/><br/><br/><br/><br/><br/>
+      <br/><br/>
 
       <div id="profilediv">
         <div id="profilepic" class="profilebox">
