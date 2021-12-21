@@ -1,3 +1,13 @@
+<?php
+include 'process.php';
+session_start();
+
+/** To assure that no one can go to the page without logging in**/
+if(!isset($_SESSION["username"])){
+    header("location:index.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>

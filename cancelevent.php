@@ -1,4 +1,4 @@
-<!-- Authored by: Bayuabay,Irish Erika L. -->
+<!-- Authored by: Bayubay,Irish Erika L. -->
 <?php
 include 'process.php';
 session_start();

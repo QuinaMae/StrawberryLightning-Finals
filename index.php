@@ -4,7 +4,7 @@
 
 $host="localhost";
 $user="root";
-$password="";
+$password="root";
 $db="users";
 
 /** If you are using WAMP or any other platform, please use the one below for the password only. **/
